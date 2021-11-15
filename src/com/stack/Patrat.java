@@ -4,7 +4,9 @@ package com.stack;
 public class Patrat implements IFigura{
     Origin origin;
     protected int side;
+    public Patrat() {
 
+    }
     public Patrat(int originX, int originY, int side) {
         this.origin = new Origin(originX, originY);
         this.side = side;

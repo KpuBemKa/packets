@@ -5,6 +5,10 @@ public class Cerc implements IFigura{
     protected Origin origin;
     protected int radius;
 
+    public Cerc() {
+
+    }
+
     public Cerc(int originX, int originY, int radius) {
         this.origin = new Origin(originX, originY);
         this.radius = radius;
