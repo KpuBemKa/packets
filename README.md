@@ -1,2 +1,2 @@
 # packets
-group project about java packets
+групповуха с пакетами
